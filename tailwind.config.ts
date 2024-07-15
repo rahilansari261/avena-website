@@ -1,3 +1,4 @@
+import { Abril_Fatface, Barlow } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,10 +9,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        playfair: ["Playfair Display", "serif"],
+        abhaya: ["Abhaya Libre", "serif"],
+        abril: ["Abril Fatface", "serif"],
+        barlow: ["Barlow", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      },
+      colors: {
+        wine: "#5D0E41",
       },
     },
   },
