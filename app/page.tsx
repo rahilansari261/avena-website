@@ -1,7 +1,6 @@
-import HomePage from "@/components/home";
-import Signin from "@/components/signin";
-import Signup from "@/components/signup";
+import LandingPage from "@/components/LandingPage";
+
 
 export default function Home() {
-  return <HomePage />;
+  return <LandingPage />;
 }
